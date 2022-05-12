@@ -123,6 +123,8 @@ input[type="text"] {
   border-radius: 2em;
   filter: drop-shadow(0 0 0.2rem gray);
   font-size: 20px;
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
+
 }
 
 .category_menu_area {
@@ -139,6 +141,19 @@ input[type="text"] {
   border: rgb(85, 85, 85) 3px solid;
   border-radius: 2em;
   filter: drop-shadow(0 0 0.2rem gray);
+}
+
+li {
+  padding: 0;
+  margin: 20px;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color:#0000FF; text-decoration:none; 
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
 }
 
 .menu {
