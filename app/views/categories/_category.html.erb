@@ -1,0 +1,7 @@
+<%# <% @categories.each do |category| %>
+  <%# <%= render partial: "category", locals: { category: category } %>
+<%# <% end %> 
+
+<% @categories.each do |category| %>
+    <li><%= link_to " #{category.category_name}", "categories/#{category.id}" %></li>
+<% end %>
