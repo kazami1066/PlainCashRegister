@@ -1,19 +1,19 @@
 <mxfile host="65bd71144e">
     <diagram id="AKeoCIM_p-ZD-hOAvy3j" name="ページ1">
-        <mxGraphModel dx="1208" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="611" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="45" style="edgeStyle=none;html=1;exitX=-0.005;exitY=0.298;exitDx=0;exitDy=0;startArrow=ERmany;startFill=0;endArrow=ERone;endFill=0;exitPerimeter=0;" parent="1" source="3" edge="1">
+                <mxCell id="45" style="edgeStyle=none;html=1;exitX=0.006;exitY=0.333;exitDx=0;exitDy=0;startArrow=ERmany;startFill=0;endArrow=ERone;endFill=0;exitPerimeter=0;" parent="1" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="201" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="items" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="160" width="160" height="200" as="geometry"/>
+                    <mxGeometry x="240" y="160" width="160" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="name&#10;&#10;price&#10;&#10;sales_start_date&#10;&#10;sales_end_date&#10;&#10;category" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="2" vertex="1">
-                    <mxGeometry y="30" width="160" height="170" as="geometry"/>
+                    <mxGeometry y="30" width="160" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="orders" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
                     <mxGeometry x="441" y="160" width="160" height="179" as="geometry"/>
@@ -115,10 +115,10 @@
                 <mxCell id="48" value="category_name" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="47" vertex="1">
                     <mxGeometry y="30" width="160" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="クレカ支払ページ" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                <mxCell id="49" value="クレカ支払ページ" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
                     <mxGeometry x="320" y="660" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="50" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="320" y="680.0000000000002" as="sourcePoint"/>
                         <mxPoint x="270" y="620.0000000000002" as="targetPoint"/>
@@ -126,6 +126,17 @@
                             <mxPoint x="270" y="680"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="52">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="319" y="341" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="lists" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="402" width="160" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="item" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="52">
+                    <mxGeometry y="30" width="160" height="28" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
