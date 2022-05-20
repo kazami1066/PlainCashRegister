@@ -51,6 +51,28 @@ ul,li {
   width: 55px;
   height: 55px;
 }
+
+.show-lists{
+  width: 300px;
+  position: absolute;
+  right: 90px;
+  top: 30px;
+  /* background-color: #EAD5BF; */
+  z-index: 1;
+}
+
+.pull-down-list{
+  /* padding: 15px 35px 15px 15px; */
+  border: 1px solid #eee;
+  border: rgb(85, 85, 85) 3px solid;
+  border-radius: 10px;
+  
+}
+
+.hidden{
+  display: none;
+}
+
 /* ここまで画面上部 */
 
 .menu_total_area {
