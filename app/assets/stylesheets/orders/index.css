@@ -80,6 +80,19 @@ ul,li {
   filter: drop-shadow(0 0 0.2rem gray);
 }
 
+.list {
+  height: 55%;
+  border-bottom: #333 2px solid;
+}
+
+.total {
+  height: 25%;
+}
+
+.pay {
+  height: 20%;
+}
+
 .menu_area {
   width: 50%;
 }
