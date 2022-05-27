@@ -1,0 +1,13 @@
+<div class="category_main">
+  <div class='category_logo_area'>
+    <%= link_to image_tag("pcr.logo.png", class:"category_pcr-logo"), "/" %>
+  </div>
+
+  <div class="category_form_area">
+    <%= form_with model: @category, class: "category_form", local: true do |f| %>
+  
+    <%= f.text_area :category_name, class:"category_text", id:"category-name", placeholder:"カテゴリー名（必須）", maxlength:"20" %>
+  </div>
+  <%= f.submit "追加" ,class:"add-btn" %>
+</div>
+<% end %>
