@@ -6,7 +6,7 @@
   <div class="category_form_area">
     <%= form_with model: @category, class: "category_form", local: true do |f| %>
   
-    <%= f.text_area :category_name, class:"category_text", id:"category-name", placeholder:"カテゴリー名（必須）", maxlength:"20" %>
+    <%= f.text_area :category_name, class:"category_text", id:"category-name", placeholder:"カテゴリー名（必須）", maxlength:"10" %>
   </div>
   <%= f.submit "追加" ,class:"add-btn" %>
 </div>

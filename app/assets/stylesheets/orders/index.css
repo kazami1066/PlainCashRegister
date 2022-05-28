@@ -167,12 +167,20 @@ li {
   border: rgb(85, 85, 85) 3px solid;
   border-radius: 2em;
   filter: drop-shadow(0 0 0.2rem gray);
-  
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
   text-decoration: none; 
   color: #333;
+}
+
+a#deleteBtn {
+  margin-right: 7%;
+  padding: 5% 1% 0;
+  color: #f58268;
+  font-size: 15px;
 }
 
 .menu {
