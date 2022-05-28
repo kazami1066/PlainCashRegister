@@ -31,9 +31,6 @@ input#item-name, input#item-price{
   height: 2em;
 }
 
-input#item-price{
-  
-}
 
 select#item_category_id {
   width: 100%;
