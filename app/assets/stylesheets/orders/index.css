@@ -183,6 +183,13 @@ a#deleteBtn {
   font-size: 15px;
 }
 
+a#itemdeleteBtn {
+  margin-right: 3%;
+  padding: 2% 1% 0;
+  color: #f58268;
+  font-size: 15px;
+}
+
 .menu {
   height: 93.8%;
   width: 60%;
