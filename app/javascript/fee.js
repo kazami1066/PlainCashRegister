@@ -7,3 +7,4 @@ window.addEventListener('load', () => {
         addTaxDom.innerHTML = Math.round(priceInput.value / 1.1 * 0.1 );
   })
 });
+

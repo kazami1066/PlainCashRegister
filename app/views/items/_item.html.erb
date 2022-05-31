@@ -1,6 +1,10 @@
-<% @items.each do |item| %>
-    <li>
-        <%= link_to "#{item.item_name} : #{item.price}   円", "items/#{item.id}" %>
-        <%= link_to " 削除 ", item_path(item.id),id: "itemdeleteBtn", method: :delete %>
-    </li>
-<% end %>
+
+    <%# <ul> %>
+        <% @items.each do |item| %>
+            <li class = "listItem">
+                <%= link_to "#{item.item_name} ", "items/#{item.id}" %>
+                <%= link_to ": #{item.price}   円", "items/#{item.id}" %>
+                <%= link_to " 削除 ", item_path(item.id),id: "itemdeleteBtn", method: :delete %>
+            </li>
+        <% end %>
+    <%# </ul> %>

@@ -190,7 +190,7 @@ a#itemdeleteBtn {
   font-size: 15px;
 }
 
-.menu {
+#menu {
   height: 93.8%;
   width: 60%;
   margin: 0 40px 0 0 ;
@@ -200,3 +200,12 @@ a#itemdeleteBtn {
   filter: drop-shadow(0 0 0.2rem gray);
 }
 
+input#jsNum {
+  border: rgb(85, 85, 85) 2px solid;
+  border-radius: 0;
+  filter: none;
+  background-color: #f8f8f8;
+  width: 7%;
+  margin-top: -5px;
+  text-align: right;
+}

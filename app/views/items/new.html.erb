@@ -10,9 +10,6 @@
     <%= f.collection_select :category_id, Category.all, :id, :category_name, class: 'category_pulldown' %>
     <%= f.text_field :item_name, class:"item_text", id:"item-name", placeholder:"商品名　（必須）", maxlength:"10" %>
     <%= f.text_field :price, class:"item_price", id:"item-price", placeholder:"税込価格（必須）", maxlength:"10" %>
-    <%# <span>
-      <span id='add-tax-price'></span>円
-    </span> %>
 
   </div>
   <%= f.submit "追加" ,class:"add-btn" %>
