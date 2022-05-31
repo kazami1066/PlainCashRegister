@@ -4,7 +4,7 @@
 
 <% @categories.each do |category| %>
     <li>
-      <%= link_to " #{category.category_name}", "categories/#{category.id}" %>
+      <%= link_to " #{category.category_name}", "categories/#{category.id}", style: "pointer-events: none;" %>
       <%= link_to " 削除 ", category_path(category.id),id: "deleteBtn", method: :delete %>
     </li>
 <% end %>
