@@ -14,25 +14,18 @@ window.addEventListener('load', function(){
     });
     // listItemから降りると色が戻るコード ここまで
     // listItemをクリックするとlistクラスに移動する ここから
-
-    // target.addEventListener('click', function() {
-      // for (var i=0; i < menuList.length; i++) {
-      //   menuList[i].addEventListener('click', function() {
-      //   // thisはli[i]にあたる
-      //   this.append(addList);
-      //   });
-      // };
-
     target.addEventListener('click', function() {
       var boxes = document.getElementById('list');
-      var items = document.getElementById('item');
-      var prices = document.getElementById('price');
+      // var items = document.getElementById('item');
+      // var prices = document.getElementById('price');
       var clone = boxes.firstElementChild.cloneNode(true);
-      var cloneItem = items.firstChild.cloneNode(true);
-      var clonePrice = prices.firstChild.cloneNode(true);
-      clone.appendChild(cloneItem);
-      clone.appendChild(clonePrice);
-      boxes.appendChild(clone);
+      // var cloneItem = items.firstChild.cloneNode(true);
+      // var clonePrice = prices.firstChild.cloneNode(true);
+      var clones = target.cloneNode(true);
+      // clone.appendChild(cloneItem);
+      // clone.appendChild(clonePrice);
+      boxes.appendChild(clones);
+      // boxes.appendChild(clone);
       clone.classList.add("item");
     });
   });
