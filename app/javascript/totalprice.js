@@ -18,7 +18,7 @@ window.addEventListener('load', function(){
       var boxes = document.getElementById('list');
       // var items = document.getElementById('item');
       // var prices = document.getElementById('price');
-      var clone = boxes.firstElementChild.cloneNode(true);
+      // var clone = boxes.firstElementChild.cloneNode(true);
       // var cloneItem = items.firstChild.cloneNode(true);
       // var clonePrice = prices.firstChild.cloneNode(true);
       var clones = target.cloneNode(true);
@@ -26,10 +26,18 @@ window.addEventListener('load', function(){
       // clone.appendChild(clonePrice);
       boxes.appendChild(clones);
       // boxes.appendChild(clone);
-      clone.classList.add("item");
+      clones.classList.add("item");
+      
     });
+      // listItemをクリックするとlistクラスに移動する ここまで
+    
+    // var itemList = document.getElementsByClassName(".item")
+    //   console.log("ok")
+    //   itemList.style.backgroundColor = '#f8f8f8';
+
   });
-    // listItemをクリックするとlistクラスに移動する ここまで
+    
+
 
 });
 // })
