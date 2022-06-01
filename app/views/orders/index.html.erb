@@ -19,7 +19,9 @@
 
       <div class='list_total_pay_area'>
         <div class='total_area'>
-          <div class='list'>
+          <div id='list'>
+            <ul class = "buy_list">
+            </ul>
             <%# <% @items.each do |item| %>
               <%# <li> %>
                 <%# <%= link_to "#{item.item_name}", "items/#{item.id}"%>
@@ -35,6 +37,7 @@
                 <%# <%= link_to " 削除 ", item_path(item.id),id: "itemdeleteBtn", method: :delete %>
               <%# </li> %>
             <%# <% end %>
+
           </div>
           <div class='total'>
             <span> 合計金額
