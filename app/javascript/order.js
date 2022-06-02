@@ -1,14 +1,12 @@
 window.addEventListener('load', function(){
 
-  // const pullDownButton = document.getElementById("menu")
-  // console.log(pullDownButton)
-  // ('div.itemName').each(function(i){
-  //   (this).attr('id','item' + (i+1));
-  // });
 
-  // ('div.itemPrice').each(function(i){
-  //   (this).attr('id','price' + (i+1));
-  // });
+  // var boxes = document.getElementById('list');
+  // var prices = document.getElementById("price")
+  // var totalPrice = document.getElementById("total_price")
+  // var deleteBtn = document.getElementById("itemdeleteBtn")
+  
+
 
   
 })

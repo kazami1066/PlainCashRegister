@@ -27,13 +27,18 @@ window.addEventListener('load', function(){
       boxes.appendChild(clones);
       // boxes.appendChild(clone);
       clones.classList.add("item");
-      
-    });
       // listItemをクリックするとlistクラスに移動する ここまで
-    
-    // var itemList = document.getElementsByClassName(".item")
-    //   console.log("ok")
-    //   itemList.style.backgroundColor = '#f8f8f8';
+
+      // 合計金額を自動計算する  ここから
+      var clonesPrice = document.getElementById("price");
+      clonesPrice.setAttribute("id", "prices");
+      // var prices = document.getElementById("price")
+      // var totalPrice = document.getElementById("total_price")
+      // var deleteBtn = document.getElementById("itemdeleteBtn")
+
+      // 合計金額を自動計算する  ここまで
+    });
+      
 
   });
     
