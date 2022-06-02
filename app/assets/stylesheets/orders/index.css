@@ -204,7 +204,7 @@ ul.buy_list.item {
   justify-content: space-between;
 }
 
-li.listItem.item {
+li.item {
   background: #f8f8f8 !important;
   height: 8% !important;
 }

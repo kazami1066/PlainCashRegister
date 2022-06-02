@@ -32,6 +32,8 @@ window.addEventListener('load', function(){
       // 合計金額を自動計算する  ここから
       var clonesPrice = document.getElementById("price");
       clonesPrice.setAttribute("id", "prices");
+      // var totalPrices = document.getElementById("total_price");
+      console.log("ok");
       // var prices = document.getElementById("price")
       // var totalPrice = document.getElementById("total_price")
       // var deleteBtn = document.getElementById("itemdeleteBtn")
