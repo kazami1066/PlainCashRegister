@@ -27,18 +27,25 @@ window.addEventListener('load', function(){
       boxes.appendChild(clones);
       // boxes.appendChild(clone);
       clones.classList.add("item");
+      var clonesPrice = document.getElementById("price");
+      clonesPrice.setAttribute("id", "prices");
       // listItemをクリックするとlistクラスに移動する ここまで
 
       // 合計金額を自動計算する  ここから
-      var clonesPrice = document.getElementById("price");
-      clonesPrice.setAttribute("id", "prices");
-      // var totalPrices = document.getElementById("total_price");
-      console.log("ok");
-      // var prices = document.getElementById("price")
-      // var totalPrice = document.getElementById("total_price")
-      // var deleteBtn = document.getElementById("itemdeleteBtn")
+      
+      // var clonesPrices = document.getElementById("prices")
+      // var totalPriceCash = document.getElementById("total_price")
+      // totalPriceCash = Math.round(clonesPrices);
 
-      // 合計金額を自動計算する  ここまで
+
+      // const numbers = ('prices');
+      // let total = 0;
+
+      // for (let i = 0; i < numbers.length; i++) {
+      //   total += numbers[i];
+      // }
+      // console.log(total);
+            // 合計金額を自動計算する  ここまで
     });
       
 
