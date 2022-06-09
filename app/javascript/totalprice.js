@@ -27,8 +27,11 @@ window.addEventListener('load', function(){
       boxes.appendChild(clones);
       // boxes.appendChild(clone);
       clones.classList.add("item");
-      var clonesPrice = document.getElementById("price");
-      clonesPrice.setAttribute("id", "prices");
+
+    let div_children = document.querySelectorAll('.listItem.item #price');
+      div_children.forEach(function(targets) {
+        targets.classList.add('prices');
+
       // listItemをクリックするとlistクラスに移動する ここまで
 
       // 合計金額を自動計算する  ここから
@@ -46,12 +49,12 @@ window.addEventListener('load', function(){
       // }
       // console.log(total);
             // 合計金額を自動計算する  ここまで
+      });
+        
+
     });
       
 
+
   });
-    
-
-
 });
-// })
