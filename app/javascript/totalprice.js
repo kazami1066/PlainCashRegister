@@ -28,9 +28,34 @@ window.addEventListener('load', function(){
       // boxes.appendChild(clone);
       clones.classList.add("item");
 
-    let div_children = document.querySelectorAll('.listItem.item #price');
+    var div_children = document.querySelectorAll('.listItem.item #price');
       div_children.forEach(function(targets) {
         targets.classList.add('prices');
+      });
+      
+    var totalPriceCash = document.getElementById("total_price");
+    var prices = document.getElementsByClassName('prices');
+    for (i = 0; i < prices.length; i++) {
+      totalPriceCash.innerHTML = prices[i].innerHTML;
+    }
+    
+    // let total = prices.reduce(function(sum, element){
+    //   return sum + element.prices;
+    // }, 0);
+
+    // console.log(prices.innerHTML);
+    
+    // function keisan(){
+    //   goukei=0;
+    //   for(i=0;i<=2;i++){
+    //   if(document.myform.elements[i].checked==true){
+    //   goukei=goukei+plice[i];
+      // }
+    //   }
+
+      // prices.forEach(function(totalPrice) {
+      // totalPriceCash.innerHTML = totalPrice.innerHTML
+
 
       // listItemをクリックするとlistクラスに移動する ここまで
 
@@ -50,11 +75,6 @@ window.addEventListener('load', function(){
       // console.log(total);
             // 合計金額を自動計算する  ここまで
       });
-        
-
     });
-      
-
-
   });
-});
+// });
