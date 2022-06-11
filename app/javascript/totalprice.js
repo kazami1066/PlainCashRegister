@@ -34,11 +34,14 @@ window.addEventListener('load', function(){
       });
       
     var totalPriceCash = document.getElementById("total_price");
+    total = 0 ;
     var prices = document.getElementsByClassName('prices');
     for (i = 0; i < prices.length; i++) {
-      totalPriceCash.innerHTML = prices[i].innerHTML;
+      
+      total += prices[i].innerHTML;
+      totalPriceCash.innerHTML = total;
     }
-    
+      
     // let total = prices.reduce(function(sum, element){
     //   return sum + element.prices;
     // }, 0);
