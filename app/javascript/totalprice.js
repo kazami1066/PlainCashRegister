@@ -34,7 +34,7 @@ window.addEventListener('load', function(){
       });
       
     var totalPriceCash = document.getElementById("total_price");
-    total = 0 ;
+    var total = 0 ;
     var prices = document.getElementsByClassName('prices');
     for (i = 0; i < prices.length; i++) {
       
