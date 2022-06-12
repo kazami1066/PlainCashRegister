@@ -106,6 +106,36 @@ ul#pull-down {
 
 .total {
   height: 25%;
+  font-size: 30px;
+}
+
+p {
+  margin: 0 4%;
+}
+
+span#total_price {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0 3%;
+}
+
+.totalPrice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0 5%;
+}
+
+.tax-price-area {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0 5%;
+}
+
+span#add-tax-price {
+  margin: 0 3%;
 }
 
 .pay {

@@ -40,7 +40,10 @@ window.addEventListener('load', function(){
       
       total += parseFloat(prices[i].innerHTML);
       
-      totalPriceCash.innerHTML = total;
+      totalPriceCash.innerHTML = total.toLocaleString();
+
+      var addTaxDom = document.getElementById("add-tax-price");
+        addTaxDom.innerHTML = Math.round(total / 1.1 * 0.1 ).toLocaleString();
     }
       
     // let total = prices.reduce(function(sum, element){
