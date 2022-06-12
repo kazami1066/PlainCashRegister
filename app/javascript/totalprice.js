@@ -38,7 +38,8 @@ window.addEventListener('load', function(){
     var prices = document.getElementsByClassName('prices');
     for (i = 0; i < prices.length; i++) {
       
-      total += prices[i].innerHTML;
+      total += parseFloat(prices[i].innerHTML);
+      
       totalPriceCash.innerHTML = total;
     }
       
