@@ -2,7 +2,8 @@
 <% @items.each do |item| %>
     <li class = "listItem">
         <div id = "item"><%= " #{item.item_name} "%></div>
-        <div id = "price"><%= " #{item.price}   " %></div>円
+        <div id = "price"><%= " #{item.price}   " %></div>
+        <span class = 'en'>円</span>
         <%= link_to " 削除 ", item_path(item.id),id: "itemdeleteBtn", method: :delete %>
     </li>
 <% end %>

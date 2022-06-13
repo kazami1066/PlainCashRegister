@@ -201,6 +201,19 @@ li {
   justify-content: space-between;
 }
 
+div#item {
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+div#price {
+  font-weight: bold;
+}
+
+span.en {
+  margin: 0 5%;
+}
+
 .buy_list {
   height: 6%;
   padding: 7px 0 0 10px;
@@ -237,6 +250,9 @@ ul.buy_list.item {
 li.item {
   background: #f8f8f8 !important;
   height: 8% !important;
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
 #text {
