@@ -20,7 +20,7 @@ form.item_form {
 
 input#item-name, input#item-price{
   margin: 10px 0 0 0;
-  width: 94%;
+  width: 89%;
   background: #f5f4e1;
   border: rgb(85, 85, 85) 3px solid;
   border-radius: 1em;

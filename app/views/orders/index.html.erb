@@ -44,19 +44,20 @@
       <div class='menu_area'>
         <form>
           <input type="text" id="search_bar" placeholder="検索ワードを入力">
+          <input type="submit" id="submit_btn" value="検索" onclick="clickSearch()">
         </form>
 
         <div class='category_menu_area'>
-          <div class='category'>
+          <ul class='category'>
 
             <%= render "categories/category" %>
           
-          </div>
-          <div id='menu'>
+          </ul>
+          <ul class='menu'>
 
             <%= render "items/item" %>
             
-          </div>
+          </ul>
         </div>
       </div>
     

@@ -164,6 +164,7 @@ input[type="text"] {
   filter: drop-shadow(0 0 0.2rem gray);
   font-size: 25px;
   font-family: 'TsukuARdGothic-Regular',sans-serif;
+  padding-right: 20px;
   padding-left: 20px;
 }
 
@@ -187,7 +188,7 @@ input[type="text"] {
 
 li {
   height: 6%;
-  padding: 7px 0 0 10px;
+  padding: 10px 0 0 10px;
   margin: 20px;
   background: #f8f8f8;
   font-size: 20px;
@@ -199,6 +200,13 @@ li {
   filter: drop-shadow(0 0 0.2rem gray);
   display: flex;
   justify-content: space-between;
+}
+
+input#submit_btn {
+  margin: 0 5% 0 0;
+  padding: 27px 18px;
+  line-height: 1em;
+  font-size: 20px;
 }
 
 div#item {
@@ -278,7 +286,7 @@ a#itemdeleteBtn {
   font-size: 15px;
 }
 
-#menu {
+ul.menu {
   height: 93.8%;
   width: 60%;
   margin: 0 40px 0 0 ;
