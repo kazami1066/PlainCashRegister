@@ -20,9 +20,13 @@ window.addEventListener('load', function(){
       boxes.appendChild(clones);
       clones.classList.add("item");
 
-    var div_children = document.querySelectorAll('.listItem.item #price');
-      div_children.forEach(function(targets) {
-        targets.classList.add('prices');
+    var div_price = document.querySelectorAll('.listItem.item #price');
+      div_price.forEach(function(priceTarget) {
+        priceTarget.classList.add('prices');
+      });
+    var div_item = document.querySelectorAll('.listItem.item #item');
+      div_item.forEach(function(itemTarget) {
+        itemTarget.classList.add('itemName');
       });
     // listItemをクリックするとlistクラスに移動する ここまで
     // 合計金額を自動計算する  ここから
@@ -39,6 +43,12 @@ window.addEventListener('load', function(){
         addTaxDom.innerHTML = Math.round(total / 1.1 * 0.1 ).toLocaleString();
     }
     // 合計金額を自動計算する  ここまで
+    // 購入個数を算出  ここから
+    var totalItem = document.querySelectorAll(".listItem.item");
+    var itemThings = document.getElementById('item-things');
+      itemThings.innerHTML = totalItem.length; 
+      
+      
       });
     });
   });

@@ -131,10 +131,22 @@ span#total_price {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin: 0 5%;
+  margin: 2% 5% 0;
 }
 
 span#add-tax-price {
+  margin: 0 3%;
+}
+
+.itemThings {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 2% 5% 0;
+}
+
+span#item-things {
   margin: 0 3%;
 }
 
