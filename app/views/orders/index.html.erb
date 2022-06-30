@@ -50,7 +50,6 @@
       <div class='menu_area'>
         <form>
           <input type="text" id="search_bar" placeholder="検索ワードを入力">
-          <input type="submit" id="submit_btn" value="検索" onclick="clickSearch()">
         </form>
 
         <div class='category_menu_area'>
@@ -59,7 +58,7 @@
             <%= render "categories/category" %>
           
           </ul>
-          <ul class='menu'>
+          <ul class='menu' id='menu'>
 
             <%= render "items/item" %>
             

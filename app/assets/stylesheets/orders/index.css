@@ -214,13 +214,6 @@ li {
   justify-content: space-between;
 }
 
-input#submit_btn {
-  margin: 0 5% 0 0;
-  padding: 27px 18px;
-  line-height: 1em;
-  font-size: 20px;
-}
-
 div#item {
   margin-right: auto;
   margin-left: 5%;

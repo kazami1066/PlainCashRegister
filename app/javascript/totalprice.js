@@ -19,7 +19,6 @@ window.addEventListener('load', function(){
       var clones = target.cloneNode(true);
       boxes.appendChild(clones);
       clones.classList.add("item");
-
     var div_price = document.querySelectorAll('.listItem.item #price');
       div_price.forEach(function(priceTarget) {
         priceTarget.classList.add('prices');
@@ -34,11 +33,8 @@ window.addEventListener('load', function(){
     var total = 0 ;
     var prices = document.getElementsByClassName('prices');
     for (i = 0; i < prices.length; i++) {
-      
       total += parseFloat(prices[i].innerHTML);
-      
       totalPriceCash.innerHTML = total.toLocaleString();
-
       var addTaxDom = document.getElementById("add-tax-price");
         addTaxDom.innerHTML = Math.round(total / 1.1 * 0.1 ).toLocaleString();
     }
@@ -47,8 +43,7 @@ window.addEventListener('load', function(){
     var totalItem = document.querySelectorAll(".listItem.item");
     var itemThings = document.getElementById('item-things');
       itemThings.innerHTML = totalItem.length; 
-      
-      
+    // 購入個数を算出  ここまで
       });
     });
   });
